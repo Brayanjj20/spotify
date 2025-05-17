@@ -1,0 +1,35 @@
+.song-list {
+  background-color: #282828;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.song-list h2 {
+  margin-top: 0;
+  color: #1db954;
+}
+
+.song-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.song-list li:hover {
+  background-color: #1db954;
+  color: #000;
+}
+
+.song-list li.active {
+  background-color: #1db954;
+  color: #000;
+  font-weight: bold;
+}
